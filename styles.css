@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  label {
+      font-weight: bold;
+  }
+  
+  body {
+    font-family: "Archivo", Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: #262626;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    padding: 5px;
+    background: #f4f4f4;
+    margin: 5px 0;
+  }
+  
+  header {
+    background: #111;
+    color: #eee;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  hr {
+    border-bottom: 1px solid #b2b6bd;
+    margin: 20px;
+  }
+  
+  .container {
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+  }
+  
+  #my-form {
+    padding: 2rem;
+    background: #f4f4f4;
+    border-radius: 10px;
+  }
+  
+  #my-form label {
+    display: block;
+    color: #54abce;
+  }
+  
+  #my-form input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: #262626;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
+  .createAccount a{
+    display: block;
+    width: 50%;
+    padding: 10px 15px;
+    border: 0;
+    background: #54abce;
+    border-radius: 5px;
+    margin: 5px auto;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .forgotPass {
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  .createAccount a:hover {
+    background: #5fc2e6;
+  }
+
+  .forgotPass a{
+    color: #54abce;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .btn:hover {
+    background: #444;
+  }
+  
+  .bg-dark {
+    background: #333;
+    color: #fff;
+  }
+  
+  .error {
+    
+    color: rgb(141, 10, 10);
+    padding: 5px;
+    margin: 5px;
+  }
